@@ -1,3 +1,3 @@
 # DSA_Algo
 
-This Repository contains Data Structure in Javascript
+This repository features a comprehensive collection of data structures implemented in JavaScript, complete with practical use cases and helpful hints for understanding and application.
