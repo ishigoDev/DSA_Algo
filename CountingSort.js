@@ -16,7 +16,7 @@ function countingSort(arr) {
     for (let i = 1; i < count.length; i++) {
         count[i] += count[i - 1];
     }
-    
+
     // Step 4: Build the output array
     const output = new Array(arr.length);
     for (let i = arr.length - 1; i >= 0; i--) {
@@ -32,7 +32,7 @@ function countingSort(arr) {
 const arr = [4, 2, 2, 8, 3, 3, 1];
 const sortedArray = countingSort(arr);
 
-console.log(sortedArray); // Output: [1, 2, 2, 3, 3, 4, 8]
+console.log(sortedArray); // Output: [1,   , 2, 3, 3, 4, 8]
 
 
 
